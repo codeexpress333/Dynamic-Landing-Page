@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)),url('./assets/wood-light-vacation-picnic-60006.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    position: relative;
+}
+
+.showDate {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    line-height: 1.14;
+    color: #fff;
+}
+
+.showDate h1, h3 {
+    font-size: 3.5em;
+    font-weight: 200;
+}
+
